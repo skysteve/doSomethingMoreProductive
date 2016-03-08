@@ -1,0 +1,13 @@
+{
+  "name": "Do Something More Productive",
+  "version": "0.0.1",
+  "description": "Limit yourself to accessing your favourite sites to n times per day",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/js/content_scripts/main.js"]
+    }
+  ],
+
+  "manifest_version": 2
+}
